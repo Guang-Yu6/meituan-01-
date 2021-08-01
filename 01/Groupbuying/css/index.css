@@ -1,0 +1,258 @@
+/* 头部区域css在 */
+/* 搜索 */
+.header {
+    width: 100%;;
+    height: 157px;
+    background: white;
+}
+.header-center {
+    width: 1190px;
+    height: 157px;
+   
+    margin: 0 auto;
+}
+/* logo区域 */
+.header-center-left {
+    width: 295px;
+    height: 157px;
+    /* background: cadetblue; */
+    font-size: 0;
+    float: left;
+}
+
+.header-center-left h1 a img {
+    width: 126px;
+    height: 46px;
+    padding: 26px 60px 64px 0;
+}
+
+.header-center-center {
+    width: 551px;
+    height: 40px;
+    /* background: wheat; */
+    font-size: 0;
+    float: left;
+    margin-top: 28px;
+    padding-left: 80px;
+}
+/* 搜索框 */
+.header-center-center input {
+    width:468px;
+    height: 38px;
+    border: 1px solid #E5E5E5;
+}
+.header-center-center button {
+    width: 80px;
+    height: 40px;
+    background: #FFC300;
+    border: none;
+}
+
+
+/* 主题区域 */
+.bodyer {
+    width: 100%;;
+    height: 427px;
+    /* background: white; */
+}
+
+.bodyer-center {
+    width: 1190px;
+    height: 427px;
+    /* background: wheat; */
+    margin: 0 auto;
+}
+
+/* 全部分类 */
+.bodyer-center-left {
+    width: 230px;
+    height: 475px;
+    /* background: yellowgreen; */
+    float: left;
+    margin-top: -50px ;
+    border: 1px solid #E5E5E5;
+    position: relative;
+}
+
+/* 全部分类的详细效果 */
+.bodyer-center-left span:nth-child(1){
+    color: rgb(145, 47, 12);
+    font-size: 18px;
+    font-weight: 700;
+    /* height: 50px; */
+    line-height: 50px;
+    margin-left: 15px;
+}
+.bodyer-center-left ul li {
+    width: 218px;
+    height: 22px;
+    padding:2px 0px 2px 12px;
+    
+}
+
+.bodyer-center-left ul li span {
+    font-size: 13px;
+    line-height: 22px;
+    color: #646464;
+    /* 鼠标 */
+    cursor: pointer;  
+}
+.bodyer-center-left ul li b {
+    position: absolute;
+    right: 13px;
+    color: #646464;
+    font-weight: 100;
+}
+/* 鼠标经过效果改变 */
+.bodyer-center-left ul li:hover {
+    background: wheat;
+}
+.bodyer-center-left ul li span:hover {
+    color: #03A9F4;
+    font-weight: 600;
+}
+
+/* 字体图标颜色的更改 */
+.icon-earth1{
+	color:#FF8200;
+}
+.icon-bird{
+	color:#FFB500;
+}
+.icon-ipod11{	
+	color:#9B5E3E;
+}
+.icon-feed{	
+	color:#FFB73F;
+}
+.icon-chat{
+	color:#FF3D17;
+}
+.icon-envelope{
+	color:#03A9F4;
+}
+.icon-phone{	
+	color:#00BF96;
+}
+.icon-headphone1{	
+	color:#00BF96;
+}
+.icon-pin1{
+	color:#FF4081;
+}
+.icon-file1{
+	color:#FF4081;
+}
+.icon-twitter-old{
+	color:#FF4081;
+}
+.icon-share{
+	color: red;
+}
+.icon-enlarge{	
+	color:#4FCBB0;
+}
+.icon-mug{	
+	color:#4FCBB0;
+}
+.icon-camera4{	
+	color:#1AA9F4;
+}
+.icon-home{	
+	color:#4FCBB0;
+}
+
+/* 轮播 */
+.bodyer-center-center {
+    width: 230px;
+    height: 475px;
+    background: skyblue;
+    float: left;
+    margin-left: 50px;
+}
+.bodyer-center-right {
+    width: 230px;
+    height: 475px;
+    background: skyblue;
+    float: left;
+    margin-left: 50px;
+}
+
+
+
+
+/* 猫眼电影  */
+.movie {
+    width: 100%;;
+    height: 350px;
+    background: white;
+    margin-top: 50px;
+}
+
+.movie-center {
+    width: 1190px;
+    height: 350px;
+    background: skyblue;
+    margin: 0 auto;
+}
+
+/* 推荐民宿 */
+.hotel {
+    width: 100%;;
+    height: 350px;
+    background: white;
+    margin-top: 50px;
+}
+
+.hotel-center {
+    width: 1190px;
+    height: 350px;
+    background: paleturquoise;
+    margin: 0 auto;
+}
+
+/* 猜你喜欢 */
+.like {
+    width: 100%;;
+    height: 350px;
+    background: white;
+    margin-top: 50px;
+}
+
+.like-center {
+    width: 1190px;
+    height: 350px;
+    background: darkkhaki;
+    margin: 0 auto;
+}
+
+/* 副导航 */
+.navbar {
+    width: 100%;;
+    height: 350px;
+    background: white;
+    margin-top: 50px;
+}
+
+.navbar-center {
+    width: 1190px;
+    height: 350px;
+    background: sienna;
+    margin: 0 auto;
+}
+
+
+/* 底部链接 */
+.foot {
+    width: 100%;;
+    height: 350px;
+    background: white;
+    margin-top: 50px;
+}
+
+.foot-center {
+    width: 1190px;
+    height: 350px;
+    background: steelblue;
+    margin: 0 auto;
+}
