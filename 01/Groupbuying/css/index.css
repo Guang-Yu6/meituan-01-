@@ -4,6 +4,7 @@
     width: 100%;;
     height: 157px;
     background: white;
+    box-shadow: 0 2px 27px 0 rgba(0,0,0,0.10);
 }
 .header-center {
     width: 1190px;
@@ -49,7 +50,7 @@
 }
 
 
-/* 主题区域 */
+/* 主体区域 */
 .bodyer {
     width: 100%;;
     height: 427px;
@@ -162,21 +163,126 @@
 	color:#4FCBB0;
 }
 
-/* 轮播 */
+
+/* 轮播大盒子包裹 */
 .bodyer-center-center {
-    width: 230px;
+    width: 710px;
     height: 475px;
-    background: skyblue;
+    /* background: skyblue; */
     float: left;
-    margin-left: 50px;
+    margin: -50px 8px 0px 8px ;
+    
 }
+/* 轮播-top */
+.bodyer-center-center-top {
+    width: 710px;
+    height: 50px;
+    line-height: 50px;
+    /* background: lightblue; */
+    
+}
+.bodyer-center-center-top a:nth-child(1){
+    padding-left: 45px;
+}
+.bodyer-center-center-top a {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    padding:0px 15px;
+}
+.bodyer-center-center-top a:hover{
+   color: lightcoral;
+}
+
+/* 轮播部分-下 */
+.bodyer-center-center-bottom{
+    width: 710px;
+    height: 420px;
+    margin-top: 5px;
+}
+.bodyer-center-center-bottom div:nth-child(1){
+    width: 550px;
+    height: 240px;
+    background: url("../images//aa1.jpg");
+    background-size: cover;
+    float: left;
+}
+.bodyer-center-center-bottom div:nth-child(2){
+    width: 150px;
+    height: 240px;
+    margin-left: 9px;
+    background: url("../images//aa2.jpg");
+    background-size: cover;
+    float: left;
+}
+.bodyer-center-center-bottom div:nth-child(3){
+    width: 270px;
+    height: 165px;
+    background: url("../images//aa3.jpg");
+    background-size: cover;
+    float: left;
+    margin-top: 15px;
+}
+.bodyer-center-center-bottom div:nth-child(4){
+    width: 270px;
+    height: 165px;
+    background: url("../images//aa4.png");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 15px;
+    float: left;
+}
+.bodyer-center-center-bottom div:nth-child(5){
+    width: 150px;
+    height: 165px;
+    background: url("../images//aa5.jpg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 15px;
+    float: left;
+}
+
+
+
+
+
+
+/* 轮播右侧登录部分 */
 .bodyer-center-right {
     width: 230px;
-    height: 475px;
-    background: skyblue;
+    height: 420px;
+    background: aquamarine;
     float: left;
-    margin-left: 50px;
+    margin-top: 5px;
 }
+.bodyer-center-right-login {
+    width: 230px;
+    height: 240px;
+    background: lightsalmon;
+    
+}
+
+.bodyer-center-right-app {
+    width: 230px;
+    height: 165px;
+    background: lightskyblue;
+    margin-top: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
