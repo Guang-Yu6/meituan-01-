@@ -410,17 +410,91 @@
 /* 推荐民宿 */
 .hotel {
     width: 100%;;
-    height: 350px;
+    height: 740px;
     background: white;
     margin-top: 50px;
 }
 
 .hotel-center {
     width: 1190px;
-    height: 350px;
+    height: 740px;
     background: paleturquoise;
     margin: 0 auto;
 }
+.hotel-center-top {
+    width: 1188px;
+    height: 42px;
+    background: #F3BD48;
+    border:1px solid #F3BD48;
+    border-radius:10px 10px 0 0;
+    line-height: 42px;
+}
+.hotel-center-top span {
+    font-size:16px;
+    color:#fff;
+    margin-left: 30px;
+}
+
+.hotel-center-top span:nth-child(1) {
+    font-size: 18px;
+    font-weight: 800;
+ }
+
+/* 民宿详情 */
+.hotel-center-bottom {
+    width: 1188px;
+    height: 693px;
+    /* background: royalblue; */
+    border: 1px solid #e5e5e5;
+}
+
+.hotel-center-bottom div {
+    width: 370px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+}
+.hotel-center-bottom div:nth-child(1) {
+    margin-left: 20px;
+}
+.hotel-center-bottom div:nth-child(4) {
+    margin-left: 20px;
+}
+.hotel-center-bottom div a img {
+    width: 370px;
+    height: 208px;
+    
+}
+
+.hotel-center-bottom div span {
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid red;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 5px 0px 5px 0px;
+}
+.hotel-center-bottom div p {
+    color: #999;
+    font-size: 14px;
+    padding-bottom: 5px ;
+}
+.hotel-center-bottom div b {
+    color: #F3BD48;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
 
 /* 猜你喜欢 */
 .like {
