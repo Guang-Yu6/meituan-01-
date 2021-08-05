@@ -66,8 +66,8 @@
 
 /* 全部分类 */
 .bodyer-center-left {
-    width: 230px;
-    height: 475px;
+    width: 228px;
+    height: 473px;
     /* background: yellowgreen; */
     float: left;
     margin-top: -50px ;
@@ -243,35 +243,105 @@
 }
 
 
-
-
-
-
 /* 轮播右侧登录部分 */
 .bodyer-center-right {
     width: 230px;
     height: 420px;
-    background: aquamarine;
+    /* background: aquamarine; */
     float: left;
     margin-top: 5px;
-}
-.bodyer-center-right-login {
+} 
+
+.bodyer-center-right-top {
     width: 230px;
     height: 240px;
-    background: lightsalmon;
-    
+    background: #FFFFFF;
+    overflow:hidden
 }
 
-.bodyer-center-right-app {
+.bodyer-center-right-top div:nth-child(1) {
+    width: 55px;
+    height: 55px;
+    background: url(../images/avatar.jpg);
+    background-size: cover;
+    border: 5px solid #E5E5E5;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.bodyer-center-right-top p:nth-child(2) {
+    text-align: center;
+    color: #222;
+    font-size: 16px;
+    padding:15px 0;
+}
+
+.bodyer-center-right-top div:nth-child(3) {
+    width: 118px;
+    height: 38px;
+    border: 1px solid #e5e5e5;
+    border-radius: 40px;
+    line-height: 38px;
+    text-align: center;
+    margin: 0 auto;
+}
+.bodyer-center-right-top div:nth-child(4) {
+    width: 118px;
+    height: 38px;
+    border: 1px solid #e5e5e5;
+    border-radius: 40px;
+    line-height: 38px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+/* .bodyer-center-right-top button {
+    width: 125px;
+    height: 38px;
+    border-radius: 40px;
+    border: 1px solid gainsboro;
+    font-size: 13px;
+    color: black;
+    background: #FFFFFF;
+    cursor: pointer;  
+} */
+
+
+
+
+.bodyer-center-right-bottom {
     width: 230px;
     height: 165px;
-    background: lightskyblue;
+    border: 1px solid #E5E5E5;
     margin-top: 14px;
+    background:#FFFFFF;
+    text-align: center;
+}
+
+.bodyer-center-right-bottom div:nth-child(1) {
+    width: 95px;
+    height: 95px;   
+    background: url(../images//download-qr.png);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 
+.bodyer-center-right-bottom p {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    padding: 5px 0 5px 0;
+   
+}
 
-
+.bodyer-center-right-bottom span {
+    color: red;
+}
 
 
 
