@@ -440,6 +440,8 @@
     font-weight: 800;
  }
 
+
+
 /* 民宿详情 */
 .hotel-center-bottom {
     width: 1188px;
@@ -499,17 +501,100 @@
 /* 猜你喜欢 */
 .like {
     width: 100%;;
-    height: 350px;
+    height: 860px;
     background: white;
     margin-top: 50px;
 }
 
 .like-center {
     width: 1190px;
-    height: 350px;
-    background: darkkhaki;
+    height: 860px; 
+    /* background: darkkhaki; */
     margin: 0 auto;
+    border: 1px solid #4EB5D6;
 }
+/* 猜你喜欢顶部 */
+.like-center-top {
+    width: 1190px;
+    height: 42px;
+    background: #4EB5D6;
+    border:1px solid #4EB5D6;
+    border-radius:10px 10px 0 0;
+    line-height: 42px;
+}
+
+
+.like-center-top span {
+    font-size:16px;
+    color:#fff;
+    margin-left: 30px;
+}
+
+.like-center-top span:nth-child(1) {
+    font-size: 18px;
+    font-weight: 800;
+ }
+
+
+/* 猜你喜欢的底部 */
+.like-center-bottom {
+    width: 1190px;
+    height: 800px;
+    /* background: royalblue; */
+   
+}
+.like-center-bottom .list {
+    width: 213px;
+    height: 250px;
+    float: left;
+    margin: 20px 0px 0px 20px;
+    border-radius: 5px;
+}
+.like-center-bottom .list div img {
+    width: 213px;
+    height: 119px;
+    border-radius: 10px;
+}
+.like-center-bottom .list div:nth-child(2) {
+    width: 213px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+    margin: 4px 0;
+}
+
+.like-center-bottom .list div:nth-child(3) {
+    width: 213px;
+    height: 20px;
+    background: url("../images/1620562035.jpg") no-repeat;
+    margin: 3px 0;
+}
+.like-center-bottom .list div:nth-child(4) {
+    width: 213px;
+    height: 20px;
+    color: #999;
+    font-size: 12px;
+    margin: 2px 0;
+}
+.like-center-bottom .list div:nth-child(5) {
+    width: 213px;
+    height: 22px;
+    color: #FF6600;
+    font-size: 22px;
+    margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* 副导航 */
 .navbar {
